@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-def squareprism(request):
+def surfaceareaofrightcylinder(request):
     context = {}
     context['area'] = "0"
     context['r'] = "0"
@@ -22,4 +22,5 @@ def squareprism(request):
         context['h'] = h
         print('Area =', area)
     
-    return render(request, 'mathapp/math.html',context)
+    return render(request, 'mathapp/math.html', context)
+
