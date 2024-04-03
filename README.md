@@ -34,6 +34,7 @@ Publish the website in the given URL.
 math.html
 
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -70,11 +71,11 @@ h1 {
 }
 </style>
 </head>
+<h2><center>Pavithra S (212223220073)</center></h2>
 <body>
 <div class="edge">
     <div class="box">
         <h1>Surface Area of Right Cylinder</h1>
-        <h3>Pavithra S(2122232220073)</h3>
         <form method="POST">
             {% csrf_token %}
             <div class="formelt">
@@ -94,6 +95,8 @@ h1 {
 </div>
 </body>
 </html>
+
+
 
 
 views.py
@@ -141,6 +144,8 @@ urlpatterns = [
  ![alt text](<Screenshot 2024-04-03 192447.png>)
 
 ## HOMEPAGE:
-![alt text](<Screenshot 2024-04-03 192425.png>)
+![alt text](<Screenshot 2024-04-03 193735.png>)
+
+
 ## RESULT:
 The program for performing server side processing is completed successfully.
