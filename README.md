@@ -144,7 +144,7 @@ urlpatterns = [
  ![alt text](<Screenshot 2024-04-03 192447.png>)
 
 ## HOMEPAGE:
-![alt text](<Screenshot 2024-04-03 193735.png>)
+
 
 
 ## RESULT:
