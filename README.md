@@ -103,7 +103,7 @@ views.py
 
 from django.shortcuts import render
 
-def surfacearea(request):
+def surfacearearightcylinder(request):
     context = {}
     context['area'] = "0"
     context['r'] = "0"
